@@ -8,7 +8,7 @@ Arduino sketches for implementing various algorithms. In due time.
 ## Eurorack Compatibility
 
 To make our module compatible with the Eurorack format, we must accept input
-audio signals of $\pm 5V$, and massage them to the Arduino-preferred $0-5V$ for
+audio signals of -5V to 5V, and massage them to the Arduino-preferred 0-5V for
 the analog input channels. This involved some straight-forward op-amp circuitry and
 a voltage divider to bias the signal. I used these components:
 * [Op-Amps](https://www.digikey.com/product-detail/en/texas-instruments/TL074BCN/296-7197-5-ND/378416),
